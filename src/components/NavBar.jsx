@@ -2,31 +2,19 @@ import React from "react";
 
 function NavBar() {
   return (
-    <>
-      <nav>
-        <div className="flex items-center justify-start pt-5 pl-24 pb-5 bg-gray-600">
-          <button className="cursor-pointer text-xl">textsage</button>
-          <button className="pl-24 cursor-pointer text-xl text-white">
-            Why textsage
-          </button>
-          <button className="pl-24 cursor-pointer text-xl text-white">
-            Features
-          </button>
-          <button className="pl-24 cursor-pointer text-xl text-white">
-            Pricing
-          </button>
-          <button className="pl-24 cursor-pointer text-xl text-white">
-            Blog
-          </button>
-          <button className="cursor-pointer pl-96 text-xl text-white">
-            Login
-          </button>
-          <button className="cursor-pointer ml-12 text-xl bg-white p-2">
-            Get started
-          </button>
-        </div>
+    <header>
+      <nav className="flex items-center justify-start py-5 px-24 bg-gray-600">
+        <button className="cursor-pointer text-xl">textsage</button>
+        <button className="ml-8 text-xl text-white">Why textsage</button>
+        <button className="ml-8 text-xl text-white">Features</button>
+        <button className="ml-8 text-xl text-white">Pricing</button>
+        <button className="ml-8 text-xl text-white">Blog</button>
+        <button className="ml-auto text-xl text-white">Login</button>
+        <button className="ml-4 text-xl bg-white px-4 py-2 rounded">
+          Get started
+        </button>
       </nav>
-    </>
+    </header>
   );
 }
 
