@@ -5,6 +5,7 @@ import Info from "./components/frontPage/Info";
 import Card from "./components/frontPage/Card";
 import Aims from "./components/frontPage/Aims";
 import Rating from "./components/frontPage/Rating";
+import Integration from "./components/frontPage/Integration";
 function App() {
   return (
     <>
@@ -39,6 +40,7 @@ function App() {
       </div>
       <Aims />
       <Rating />
+      <Integration />
     </>
   );
 }
