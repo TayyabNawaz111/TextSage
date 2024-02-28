@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import Brief from "./components/Brief";
 import Info from "./components/Info";
 import Card from "./components/Card";
-
+import Aims from "./components/Aims";
 function App() {
   return (
     <>
@@ -36,6 +36,7 @@ function App() {
           opacity="500"
         />
       </div>
+      <Aims />
     </>
   );
 }
