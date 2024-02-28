@@ -47,7 +47,7 @@ function Rating() {
         <div>
           <img
             src={picture}
-            alt="picture"
+            alt="a picture"
             className=" h-full object-cover aspect-auto"
             style={{ width: "566px" }}
           />

@@ -28,13 +28,21 @@ function App() {
         <Card
           bg="gray"
           header="Collaboration for all"
-          content="TRACK THE CUSTOMERS"
+          content={
+            <>
+              TRACK THE <br /> CUSTOMERS
+            </>
+          }
           opacity="500"
         />
         <Card
           bg="blue"
           header="INTEGRATION"
-          content="TRANSPARENT PRICING"
+          content={
+            <>
+              TRANSPARENT <br /> PRICING
+            </>
+          }
           opacity="500"
         />
       </div>
