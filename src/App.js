@@ -1,9 +1,10 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import Brief from "./components/Brief";
-import Info from "./components/Info";
-import Card from "./components/Card";
-import Aims from "./components/Aims";
+import NavBar from "./components/frontPage/NavBar";
+import Brief from "./components/frontPage/Brief";
+import Info from "./components/frontPage/Info";
+import Card from "./components/frontPage/Card";
+import Aims from "./components/frontPage/Aims";
+import Rating from "./components/frontPage/Rating";
 function App() {
   return (
     <>
@@ -37,6 +38,7 @@ function App() {
         />
       </div>
       <Aims />
+      <Rating />
     </>
   );
 }
