@@ -6,6 +6,7 @@ import Card from "./components/frontPage/Card";
 import Aims from "./components/frontPage/Aims";
 import Rating from "./components/frontPage/Rating";
 import Integration from "./components/frontPage/Integration";
+import Pricing from "./components/frontPage/Pricing";
 function App() {
   return (
     <>
@@ -49,6 +50,7 @@ function App() {
       <Aims />
       <Rating />
       <Integration />
+      <Pricing />
     </>
   );
 }
