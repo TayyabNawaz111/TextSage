@@ -7,6 +7,7 @@ import Aims from "./components/frontPage/Aims";
 import Rating from "./components/frontPage/Rating";
 import Integration from "./components/frontPage/Integration";
 import Pricing from "./components/frontPage/Pricing";
+import Footer from "./components/frontPage/Footer";
 function App() {
   return (
     <>
@@ -51,6 +52,7 @@ function App() {
       <Rating />
       <Integration />
       <Pricing />
+      <Footer />
     </>
   );
 }

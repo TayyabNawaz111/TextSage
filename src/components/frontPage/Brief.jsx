@@ -18,7 +18,6 @@ function Brief() {
         </p>
         <div className="flex items-center justify-center pb-24  ">
           <button className=" bg-white text-black py-4 px-10 font-bold">
-            {" "}
             GET TEXTSAGE
           </button>
           <button className="ml-10 border-2 border-white py-3 px-10 text-white font-bold">

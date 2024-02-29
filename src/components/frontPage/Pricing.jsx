@@ -21,7 +21,7 @@ function Pricing() {
       </div>
       <div
         className="inline-block ml-96 mt-6  py-2 px-6 border rounded-3xl bg-blue-900 text-white mb-6 font-bold"
-        style={{ marginLeft: "950px" }}
+        style={{ marginLeft: "1086px" }}
       >
         <p>CUSTOMERS HAVE RESPONDED TO MESSAGES MORE THAN-EVER</p>
       </div>
