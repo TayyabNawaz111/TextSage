@@ -91,7 +91,7 @@ function Footer() {
           </div>
           <br />
           <div
-            className="pl-24 inline-flex text-white mt-10 bg-slate-400"
+            className="pl-80 inline-flex text-white mt-10 bg-slate-400"
             style={{ width: "360px" }}
           >
             4.38
