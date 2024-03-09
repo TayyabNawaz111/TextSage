@@ -12,7 +12,14 @@ import Rating from "./frontPage/fpComponents/Rating";
 function Home() {
   return (
     <>
-      <NavBar />
+      <NavBar
+        bgColor="gray-700"
+        textColor="white"
+        activeColor="black"
+        LBcolor="white"
+        GSbg="white"
+        GStext="black"
+      />
       <Brief />
       <Info />
       <div className="flex">
