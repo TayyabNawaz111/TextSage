@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "../frontPage/fpComponents/NavBar";
+import Intro from "./Intro";
+import WhyPageFooter from "./WhyPageFooter";
 function Why() {
   return (
     <>
@@ -11,6 +13,8 @@ function Why() {
         GSbg="black"
         GStext="white"
       />
+      <Intro />
+      <WhyPageFooter />
     </>
   );
 }
