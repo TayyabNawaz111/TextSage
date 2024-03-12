@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../frontPage/fpComponents/NavBar";
-import Intro from "./Intro";
-import WhyPageFooter from "./WhyPageFooter";
+import Intro from "./WhyPageComponents/Intro";
+import WhyPageFooter from "./WhyPageComponents/WhyPageFooter";
 function Why() {
   return (
     <>
